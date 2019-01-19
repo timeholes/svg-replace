@@ -5,13 +5,17 @@ var args = require('minimist')(process.argv.slice(2), {
     },
 });
 var jsdom = require("jsdom");
-var {
-    JSDOM
-} = jsdom;
+var {JSDOM} = jsdom;
+const PATH = {
+    src: "./svg",
+    data: "./data",
+    output: "./output"
+}
+
 
 // Loading source SVG
 
-var source = fs.readFileSync('svg/' + args.s, 'utf8');
+var source = fs.readFileSync(PATH.src + '/' + args.s, 'utf8');
 var dom = new JSDOM(source);
 var doc = dom.window.document;
 var svgName = (args.s).replace('.svg', '');
@@ -116,7 +120,10 @@ if (args.e) {
         svgData["text"] = text;
     }
 
-    fs.writeFile("data/" + svgName + ".json", JSON.stringify(svgData, null, 4), function (err) {
+    if (!fs.existsSync(PATH.data)){
+        fs.mkdirSync(PATH.data);
+    }
+    fs.writeFile(PATH.data + '/' + svgName + ".json", JSON.stringify(svgData, null, 4), function (err) {
         if (err) {
             return console.log(err);
         }
@@ -195,7 +202,11 @@ for (i = 0; i < tl.length; i++) {
 
 // Writing to file
 
-fs.writeFile("output/" + svgName + "-new.svg", '<?xml version="1.0" encoding="UTF-8"?>' + "\n" + dom.window.document.querySelector("body").innerHTML, function (err) {
+if (!fs.existsSync(PATH.output)){
+    fs.mkdirSync(PATH.output);
+}
+
+fs.writeFile(PATH.output + "/" + svgName + "-new.svg", '<?xml version="1.0" encoding="UTF-8"?>' + "\n" + dom.window.document.querySelector("body").innerHTML, function (err) {
     if (err) {
         return console.log(err);
     }
