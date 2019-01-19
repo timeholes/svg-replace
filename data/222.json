@@ -1,0 +1,169 @@
+{
+    "gradients": {
+        "linearGradient-1": [
+            "#000000",
+            "cyan"
+        ]
+    },
+    "colors": {
+        "#000000": "#000000",
+        "#32333C": "#32333C",
+        "#76778C": "#76778C",
+        "#ACB4BE": "#ACB4BE",
+        "#C7C7CC": "#C7C7CC",
+        "#CFD3DB": "#CFD3DB",
+        "#D1D5DB": "#D1D5DB",
+        "#D3018B": "#D3018B",
+        "#D5257C": "#D5257C",
+        "#E1E2E7": "#E1E2E7",
+        "#F0F0F3": "#F0F0F3",
+        "#FFFFFF": "#FFFFFF",
+        "black": "violet",
+        "none": "none"
+    },
+    "fonts": {
+        ".SFNSDisplay, .SF NS Display": ".SFNSDisplay, .SF NS Display",
+        ".SFNSText, .SF NS Text": ".SFNSText, .SF NS Text",
+        "BebasNeueBold, Bebas Neue": "Lato",
+        "TitilliumWeb-Bold, Titillium Web": "TitilliumWeb-Bold, Titillium Web",
+        "TitilliumWeb-Regular, Titillium Web": "TitilliumWeb-Regular, Titillium Web",
+        "TitilliumWeb-SemiBold, Titillium Web": "TitilliumWeb-SemiBold, Titillium Web"
+    },
+    "text": {
+        "123": [
+            "12",
+            "3"
+        ],
+        "chat-1": [
+            "Hi Jason! It’s very nice to eMeet you. I’d be ",
+            "happy to connect. Martin."
+        ],
+        "date-1": [
+            "Jun 4, 2017"
+        ],
+        "chat-2": [
+            "I’d be happy to connect, will you have ",
+            "time on the event first day? "
+        ],
+        "date-2": [
+            "Yesterday"
+        ],
+        "chat-3": [
+            "Hi Martin! What’s up?"
+        ],
+        "date-3": [
+            "Yesterday"
+        ],
+        "chat-4": [
+            "Sure, that will be great."
+        ],
+        "date-4": [
+            "11:55am"
+        ],
+        "CMO-World-Congress": [
+            "CMO World Congress"
+        ],
+        "username": [
+            "Martin Red"
+        ],
+        "q": [
+            "q"
+        ],
+        "z": [
+            "z"
+        ],
+        "r": [
+            "r"
+        ],
+        "v": [
+            "v"
+        ],
+        "d": [
+            "d"
+        ],
+        "u": [
+            "u"
+        ],
+        "h": [
+            "h"
+        ],
+        "w": [
+            "w"
+        ],
+        "x": [
+            "x"
+        ],
+        "t": [
+            "t"
+        ],
+        "b": [
+            "b"
+        ],
+        "f": [
+            "f"
+        ],
+        "i": [
+            "i"
+        ],
+        "j": [
+            "j"
+        ],
+        "e": [
+            "e"
+        ],
+        "c": [
+            "c"
+        ],
+        "s": [
+            "s"
+        ],
+        "a": [
+            "a"
+        ],
+        "y": [
+            "y"
+        ],
+        "n": [
+            "n"
+        ],
+        "m": [
+            "m"
+        ],
+        "g": [
+            "g"
+        ],
+        "o": [
+            "o"
+        ],
+        "k": [
+            "k"
+        ],
+        "p": [
+            "p"
+        ],
+        "l": [
+            "l"
+        ],
+        "space": [
+            "space"
+        ],
+        "return": [
+            "return"
+        ],
+        "Send": [
+            "Send"
+        ],
+        "Writing-something": [
+            "Writing something"
+        ],
+        "Carrier": [
+            "Sketch"
+        ],
+        "9:41-AM": [
+            "9:41 AM"
+        ],
+        "100%": [
+            "100%"
+        ]
+    }
+}
