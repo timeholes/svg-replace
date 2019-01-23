@@ -105,6 +105,7 @@ if (args.e) {
 
     var allText = doc.querySelectorAll("text");
     var text = new Object();
+    var bug = 0;
     for (i = 0; i < allText.length; i++) {
         var lines = new Array();
         var j = 1;
@@ -114,6 +115,14 @@ if (args.e) {
             lines.push(line);
             j++;
         }
+      
+        // Fix for missing IDs
+      
+        if (allText[i].id == "") {
+          bug++;
+          allText[i].id = "missing-id-" + bug;
+        }
+      
         text[allText[i].id] = lines;
     }
     if (Object.keys(text).length > 0) {
@@ -123,6 +132,17 @@ if (args.e) {
     if (!fs.existsSync(PATH.data)){
         fs.mkdirSync(PATH.data);
     }
+  
+    if (bug > 0) {
+      fs.writeFile(PATH.src + "/" + svgName + ".svg", '<?xml version="1.0" encoding="UTF-8"?>' + "\n" +  dom.window.document.querySelector("body").innerHTML, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Source file was replaced, fixed " + bug + " missing IDs.");
+      });
+    }
+  
+  
     fs.writeFile(PATH.data + '/' + svgName + ".json", JSON.stringify(svgData, null, 4), function (err) {
         if (err) {
             return console.log(err);
@@ -190,7 +210,7 @@ for (i = 0; i < tl.length; i++) {
     var value = data.text[id];
     var j = 0;
     while (j < value.length) {
-        j++;
+        j++; 
         var selector = "text[id='" + id + "'] tspan:nth-child(" + j + ")";
         doc.querySelector(selector).textContent = value[j - 1];
     }

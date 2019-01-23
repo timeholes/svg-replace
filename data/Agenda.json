@@ -1,0 +1,110 @@
+{
+    "gradients": {
+        "linearGradient-1": [
+            "#000000",
+            "#000000"
+        ],
+        "linearGradient-2": [
+            "#000000",
+            "#000000"
+        ]
+    },
+    "colors": {
+        "#000000": "#000000",
+        "#32333B": "#32333B",
+        "#32333C": "#32333C",
+        "#54627F": "#54627F",
+        "#76778A": "#76778A",
+        "#76778C": "#76778C",
+        "#79778F": "#79778F",
+        "#B1B4BF": "#B1B4BF",
+        "#E1E2E7": "#E1E2E7",
+        "#FFFFFF": "#FFFFFF",
+        "black": "black",
+        "none": "none"
+    },
+    "fonts": {
+        "BebasNeueBold, Bebas Neue": "BebasNeueBold, Bebas Neue",
+        "TitilliumWeb-Bold, Titillium Web": "TitilliumWeb-Bold, Titillium Web",
+        "TitilliumWeb-Regular, Titillium Web": "TitilliumWeb-Regular, Titillium Web",
+        "TitilliumWeb-SemiBold, Titillium Web": "TitilliumWeb-SemiBold, Titillium Web"
+    },
+    "text": {
+        "Registered": [
+            "Registered"
+        ],
+        "Main-Hall": [
+            "MAIN HALL"
+        ],
+        "Registration-and-Cof": [
+            "Registration and Coffee Break"
+        ],
+        "8:00am-8:30am-/-30-M": [
+            "8:00AM-8:30AM",
+            " / 30 MIN / ",
+            "OPEN FOR ALL"
+        ],
+        "Aug-24": [
+            "Aug 24"
+        ],
+        "All-Sessions": [
+            "All Sessions"
+        ],
+        "My-Interests": [
+            "My Interests"
+        ],
+        "Welcome-to-BE-Events": [
+            "Welcome to BE Events!"
+        ],
+        "8:30am-9:05am-/-35-m": [
+            "8:30AM-9:05AM",
+            " / 35 MIN / ",
+            "OPEN FOR ALL"
+        ],
+        "Adwords-Keyword-Rese": [
+            "Adwords Keyword Research For ",
+            "Beginners"
+        ],
+        "9:05am-9:45am-/-40-M": [
+            "9:05AM-9:45AM",
+            " / 40 MIN / ",
+            "LIMITED"
+        ],
+        "Not-Registered,-Yet": [
+            "Not Registered, Yet"
+        ],
+        "Aug-25": [
+            "Aug 25"
+        ],
+        "all-days": [
+            "all days"
+        ],
+        "AUG-24": [
+            "AUG 24"
+        ],
+        "Home": [
+            "Home"
+        ],
+        "Sponsors": [
+            "Sponsors"
+        ],
+        "missing-id-1": [
+            "Agenda"
+        ],
+        "Speakers": [
+            "Speakers"
+        ],
+        "Agenda": [
+            "Agenda"
+        ],
+        "Carrier": [
+            "Sketch"
+        ],
+        "9:41-AM": [
+            "9:41 AM"
+        ],
+        "100%": [
+            "100%"
+        ]
+    }
+}
